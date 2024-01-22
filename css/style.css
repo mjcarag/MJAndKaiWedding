@@ -9526,7 +9526,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media (max-width: 991.98px) {
-  .ccccccccccccccccccccccccccccc-dark .navbar-nav .nav-link {
+  .bg-dark .navbar-nav .nav-link {
     padding: 10px 0;
   }
 }
