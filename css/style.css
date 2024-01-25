@@ -9777,12 +9777,84 @@ a.text-dark:hover, a.text-dark:focus {
 @keyframes countDown_flip_1{0%{transform:rotateX(0);z-index:1}100%{transform:rotateX(-180deg);z-index:0}}
 @keyframes countDown_flip_2{0%{transform:rotateX(0);z-index:0}100%{transform:rotateX(-180deg);z-index:1}}
 
-@media (max-width: 767.98px) {
+
+@media (max-width: 576px) {
   #event .border-right {
     border-right: none !important;
   }
 }
 
+@media (max-width: 768px) {
+  #event .border-right {
+    border-right: none !important;
+  }
+}
 
+@media (max-width: 992px) {
+  #event .border-right {
+    border-right: none !important;
+  }
+}
 
+@media (max-width: 1200px) {
+  #event .border-right {
+    border-right: none !important;
+  }
+}
 
+.rowss {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (max-width: 320px) {
+  #event .rowss
+    {
+      display: flex;
+      flex-flow: row wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+}
+
+@media (max-width: 425px) {
+  #event .rowss
+    {
+      display: flex;
+      flex-flow: row wrap;
+      margin-right: -30px;
+      margin-left: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+  #event .rowss
+  {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 992px) {
+  #event .rowss
+  {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #event .rowss
+  {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
